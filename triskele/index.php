@@ -399,25 +399,37 @@
 
             <h3><span class="notbold">Upcoming</span></h3>
 
-            <h5 class="noticeBorder">There are no upcoming concerts at the moment!</h5>
+            <!-- <h5 class="noticeBorder">There are no upcoming concerts at the moment!</h5> -->
 
-            <!-- <table class="table">
+            <table class="table">
                 <tbody>
                     <tr>
-                        <th scope="row">1ST DECEMBER<br><span class="notbold">3PM</span></th>
-                        <td>Folk Hymns and Songs from G. Swahn's Collection<br>Advent Concert of Peipsiääre
-                            Municipality in Alatskivi Castle</td>
+                        <th scope="row">MAY 24<br><span class="notbold">6 PM</span></th>
+                        <td>Estonian Music Week 2023 Toronto + Hamilton: <br>401 Richmond, 401 Richmond St., Toronto, CANADA</td>
                         <td></td>
                     </tr>
                     <tr>
-                        <th scope="row">15TH DECEMBER<br><span class="notbold">2PM</span></th>
-                        <td>Hail To The Day! So Rich In Joy: Folk Hymns and Songs from G. Swahn's
-                            Collection<br>Concert within the EBU Christmas Music Day programme in Tartu St Paul's
-                            Church</td>
+                        <th scope="row">MAY 25<br><span class="notbold">8PM</span></th>
+                        <td>Estonian Music Week 2023 Toronto + Hamilton: <br>401 Richmond, 401 Richmond St., Toronto, CANADA</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">MAY 26<br><span class="notbold">9PM</span></th>
+                        <td>Estonian Music Week 2023 Toronto + Hamilton: <br>Royal Ontario Museum, 100 Queens Park, Toronto, CANADA</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">MAY 27<br><span class="notbold">6PM</span></th>
+                        <td>Estonian Music Week 2023 Toronto + Hamilton: <br>The Cotton Factory, 270 Sherman Ave N, Hamilton, CANADA</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">MAY 28<br><span class="notbold">10AM</span></th>
+                        <td>Estonian Music Week 2023 Toronto + Hamilton: <br>St. Peter's Estonian Evangelical Lutheran Church of Toronto, 817 Mt Pleasant Rd, Toronto, CANADA</td>
                         <td></td>
                     </tr>
                 </tbody>
-            </table> -->
+            </table>
 
             <hr class="whiteHR">
 
@@ -426,23 +438,59 @@
             <h3><span class="notbold">Past Concerts</span></h3>
             <div id="concert" data-children=".item">
                 <div class="item">
+                    <a data-toggle="collapse" data-parent="#concert" href="#concert22" aria-expanded="false" aria-controls="concert22" class="btn">
+                        2022
+                    </a>
+                    <div id="concert22" class="collapse" role="tabpanel">
+                        <p class="mb-3">
+                            <span class="boldd"><a href="https://triskele.ee">ÜRITUSE NIMI</a></span><br>
+                            01.01.2001 12AM linn, kontserti toimumiskoht, esitatud programm<br><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#concert" href="#concert21" aria-expanded="false" aria-controls="concert21" class="btn">
+                        2021
+                    </a>
+                    <div id="concert21" class="collapse" role="tabpanel">
+                        <p class="mb-3">
+                            <span class="boldd"><a href="https://triskele.ee">ÜRITUSE NIMI</a></span><br>
+                            01.01.2001 12AM linn, kontserti toimumiskoht, esitatud programm<br><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a data-toggle="collapse" data-parent="#concert" href="#concert20" aria-expanded="false" aria-controls="concert20" class="btn">
+                        2020
+                    </a>
+                    <div id="concert20" class="collapse" role="tabpanel">
+                        <p class="mb-3">
+                            <span class="boldd"><a href="https://triskele.ee">ÜRITUSE NIMI</a></span><br>
+                            01.01.2001 12AM linn, kontserti toimumiskoht, esitatud programm<br><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
                     <a data-toggle="collapse" data-parent="#concert" href="#concert19" aria-expanded="false" aria-controls="concert19" class="btn">
                         2019
                     </a>
                     <div id="concert19" class="collapse" role="tabpanel">
                         <p class="mb-3">
-                            10.01.2019 9AM Tartu, Mileedi Flower and Interior Centre, <a href="https://www.facebook.com/palvushommik/photos/?tab=album&album_id=2071368696219411">9th
-                                South-Estonian Prayer Breakfast</a><br>
-                            27.03.2019 7PM Pärnu Concert Hall (Chamber Hall)), <a href="https://concert.ee/en/kontsert/ansambel-triskele/">Earth and Sea Rejoice: Folk
-                                Hymns from Estonian Islands and South-Estonia</a><br>
-                            29.03.2019 7PM Tallinn, Erinevate Tubade Klubi (Telliskivi Creative City) <a href="https://tmw.ee/schedule/tmw-2019-fenno-ugria-night">TMW2019 Fenno-Ugria
-                                Night</a><br>
-                            01.04.2019 9.30AM, 11.15AM School Concerts in Pala and Alatskivi <br>
-                            25.06.2019 3.15PM University of Tartu Fetstive Hall, Opening Ceremony of the EASR 2019
-                            Tartu Conference<br><br>
+                            <span class="boldd">9th South-Estonian Prayer Breakfast</span><br>
+                            10.01.2019 9AM Tartu, Mileedi Flower and Interior Centre<br><br>
 
-                            <span class="boldd"><a href="https://hansa.parnu.ee/index.php?id=71">XIX Pärnu Hanseatic
-                                    Days</a></span><br>
+                            27.03.2019 7PM Pärnu Concert Hall (Chamber Hall), Earth and Sea Rejoice: Folk
+                            Hymns from Estonian Islands and South-Estonia<br><br>
+
+                            <span class="boldd">TMW2019 Fenno-Ugria Night</span><br>
+                            29.03.2019 7PM Tallinn, Erinevate Tubade Klubi (Telliskivi Creative City)<br><br>
+
+                            01.04.2019 9.30AM, 11.15AM School Concerts in Pala and Alatskivi <br><br>
+
+                            <span class="boldd">Opening Ceremony of the EASR 2019 Tartu Conference</span><br>
+                            25.06.2019 3.15PM University of Tartu Fetstive Hall<br><br>
+
+                            <span class="boldd">XIX Pärnu Hanseatic Days</span><br>
                             28.06.2019 at 12.30PM and 3PM concert "Journey Through Medieval Music"<br><br>
 
                             <span class="boldd">Estonian Folk Hymns and Songs of Moravian Bretheren</span><br>
@@ -457,22 +505,21 @@
                                     Organ Festival</a></span><br>
                             12.07.2019 at 10PM Juuru St Michael's Church concert "Earth and Sea Rejoice"<br><br>
 
-                            <span class="boldd"><a href="http://valgamuuseum.ee/en/liivimaa-maapaev/">Liivimaa
-                                    Maapäev</a></span><br>
+                            <span class="boldd">Liivimaa
+                                Maapäev</span><br>
                             13.07.2019 at 8PM Valga Säde Park concert "Journey Through Medieval Music"<br><br>
 
-                            <span class="boldd"><a href="https://www.facebook.com/events/1297073510453872/">All
-                                    Souls' Day Evening Concert</a></span><br>
+                            <span class="boldd">All
+                                Souls' Day Evening Concert</span><br>
                             2.11.2019 at 7PM Tartu St Peter's Church<br><br>
 
-                            <span class="boldd"><a href="https://www.facebook.com/events/alatskivi-loss-tartu-maakond-viro/advendikontsert-see-j%C3%B5uluaeg-on-r%C3%B5%C3%B5must-suur-alatskivi-lossis/2503165066595601/">Advent Concert of Peipsiääre
-                                    Municipality</a></span><br>
+                            <span class="boldd">Advent Concert of Peipsiääre
+                                Municipality</span><br>
                             1.12.2019 at 3PM Alatskivi Castle<br><br>
 
                             <span class="boldd"><a href="https://arhiiv.err.ee/audio/vaata/ebu-joulumuusikapaev-tartu-triskele-see-joulupaev-on-roomust-suur">Concert within the EBU Christmas Music Day programme</a></span><br>
                             15.12.2019 at 2PM Tartu St Paul's Church<br><br>
                         </p>
-
                     </div>
                 </div>
                 <div class="item">
@@ -493,14 +540,14 @@
 
                             15.09.2018 5PM Peipsiääre Municipality, Turgi Handicraft Cottage<br><br>
 
-                            <span class="boldd"><a href="https://concert.ee/en/kontsert/kontserdisari-eesti-ajastud-rootsi-aeg-ansambel-triskele-2/">"Eras
-                                    of Estonia: The Swedish Era"</a></span><br>
+                            <span class="boldd">>"Eras
+                                of Estonia: The Swedish Era"</span><br>
                             20.09.2018 7PM Tallinn, Great Guild Hall (Folk Hymns of Estonian Swedes and
                             Islands)<br><br>
 
                             23.09.2018 4PM St. Petersburg, St John's Church<br><br>
 
-                            <span class="boldd"><a href="https://www.usedomer-musikfestival.de/index.php?id=117&tx_news_pi1%5Bnews%5D=363&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=fe46e360251cea55eabb28314e6860a5">Usedomer
+                            <span class="boldd"><a href="https://www.usedomer-musikfestival.de/">Usedomer
                                     Musik Festival</a></span><br>
                             03.10.2018 7PM Morgenitz Evangelical Church "Earth and Sea Rejoice"<br><br>
 

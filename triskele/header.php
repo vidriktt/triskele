@@ -14,9 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
-    <!-- <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /> -->
-
     <style type="text/css">
         .masthead {
             background: url("<?php echo get_template_directory_uri() ?>/assets/images/header_background.jpg") no-repeat bottom center scroll;
@@ -44,26 +41,50 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <?php
+                    if (add_query_arg(array(), $wp->request) != "ee") {
+                        echo '<li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#ensemble">Ensemble</a>
-                    </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#discography">Discography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#programmes">Programmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#concerts">Concerts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#media">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contacts</a>
+                        </li>';
+                    } else {
+                        echo '<li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#ensemble">Ansambel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#albumid">Albumid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#kavad">Kavad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#kontserdid">Kontserdid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#meedia">Meedia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+                        </li>';
+                    }
+                    ?>
+
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#discography">Discography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#programmes">Programmes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#concerts">Concerts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#media">Media</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contacts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link rose" href="ee-index.html">EE</a>
+                        <a class="nav-link rose" href="index.php/ee">EE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link rose" href="/">EN</a>
@@ -75,9 +96,16 @@
 
 
     <!-- Music Player -->
-    <nav class="navbar navbar-default fixed-bottom">
-        <div class="container right">
-            <a id="play-pause-button" class="fa fa-play"></a>
+    <nav id="background-music-nav" class="navbar navbar-default fixed-bottom">
+        <div id="background-music" class="container right">
+            <a id="background-music-button" class="fa fa-play"></a>
+            <?php
+            if (add_query_arg(array(), $wp->request) != "ee") {
+                echo '<p id="background-music-text">Background music</p>';
+            } else {
+                echo '<p id="background-music-text">Taustamuusika</p>';
+            }
+            ?>
         </div>
     </nav>
 

@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
- body {
+body {
     font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
     width: 100%;
@@ -156,9 +156,25 @@ a:hover {
     color: #ffcbb7 !important;
 }
 
-#play-pause-button {
+#background-music-button {
     font-size: 40px;
     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    #background-music-nav {
+        display: none;
+    }
+}
+
+#background-music {
+    margin-right: 20px;
+    justify-content: center;
+}
+
+#background-music-text {
+    font-size: 11px;
+    white-space: nowrap;
 }
 
 .right {

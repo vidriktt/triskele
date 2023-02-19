@@ -38,7 +38,7 @@
     <script>
         var audio = new Audio("<?php echo get_template_directory_uri() ?>/assets/audio/101_mu_suda.mp3");
 
-        let playPauseButton = document.getElementById('play-pause-button');
+        let playPauseButton = document.getElementById('background-music-button');
 
         playPauseButton.onclick = function() {
             if (playPauseButton.classList.contains('fa-play')) {
