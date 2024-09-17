@@ -30,7 +30,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p><a href="<?php echo get_template_directory_uri() ?>/assets/font-awesome/css/PoorlevKuup.html" style="color: white;">&copy;</a> Triskele 2023</p>
+            <p><a href="<?php echo get_template_directory_uri() ?>/assets/font-awesome/css/PoorlevKuup.html" style="color: white;">&copy;</a> Triskele 2024</p>
         </div>
         <?php wp_footer(); ?>
     </footer>

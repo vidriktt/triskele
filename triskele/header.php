@@ -42,26 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <?php
-                    if (add_query_arg(array(), $wp->request) != "ee") {
-                        echo '<li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#ensemble">Ensemble</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#discography">Discography</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#programmes">Programmes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#concerts">Concerts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#media">Media</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contacts</a>
-                        </li>';
-                    } else {
+                    if (add_query_arg(array(), $wp->request) != "en") {
                         echo '<li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#ensemble">Ansambel</a>
                         </li>
@@ -80,14 +61,33 @@
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
                         </li>';
+                    } else {
+                        echo '<li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#ensemble">Ensemble</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#discography">Discography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#programmes">Programmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#concerts">Concerts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#media">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contacts</a>
+                        </li>';
                     }
                     ?>
 
                     <li class="nav-item">
-                        <a class="nav-link rose" href="index.php/ee">EE</a>
+                        <a class="nav-link rose" href="/">EE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rose" href="/">EN</a>
+                        <a class="nav-link rose" href="index.php/en">EN</a>
                     </li>
                 </ul>
             </div>
@@ -100,10 +100,10 @@
         <div id="background-music" class="container right">
             <a id="background-music-button" class="fa fa-play"></a>
             <?php
-            if (add_query_arg(array(), $wp->request) != "ee") {
-                echo '<p id="background-music-text">Background music</p>';
-            } else {
+            if (add_query_arg(array(), $wp->request) != "en") {
                 echo '<p id="background-music-text">Taustamuusika</p>';
+            } else {
+                echo '<p id="background-music-text">Background music</p>';
             }
             ?>
         </div>
